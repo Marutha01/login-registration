@@ -1,5 +1,8 @@
 
 body {
+  background: #ff5f6d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #ff5f6d, #ffc371); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #ff5f6d, #ffc371); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #666666;
   font-family: 'RobotoDraft', 'Roboto', sans-serif;
   font-size: 14px;
@@ -7,20 +10,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 .parallax {
-    /* The image used */
-    background-image: url("test.jpg");
+  background-image: url(http://www.hdwallpapers.in/thumbs/2017/logan_5k-t2.jpg);
 
-    /* Set a specific height */
-    min-height: 500px; 
+  
+    min-height: 1000px; 
 
-    /* Create the parallax scrolling effect */
+  
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-/* Form Module */
 .form-module {
   position:relative;
   background: #ffffff;
